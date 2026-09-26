@@ -10,5 +10,5 @@
 	shallow = true
 [submodule "tex"]
 	path = tex
-	url = https://github.com/mmore500/paperproject.git
+	url = https://github.com/mmore500/oee4-replay.git
 	branch = tex
