@@ -1,4 +1,4 @@
 [submodule "tex"]
 	path = paper
-	url = https://github.com/mmore500/paperproject.git
+	url = https://github.com/mmore500/oee4-replay.git
 	branch = paper
