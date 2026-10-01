@@ -164,6 +164,8 @@ jobs:
         notebook: ${{ fromJson(needs.list-marimo-notebooks.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Setup headless display
         uses: pyvista/setup-headless-display-action@v2
       - run: |
@@ -199,6 +201,8 @@ jobs:
       PIP_NO_CACHE_DIR: 1
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Setup headless display
         uses: pyvista/setup-headless-display-action@v2
       - run: |
