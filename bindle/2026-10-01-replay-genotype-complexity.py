@@ -339,6 +339,7 @@ def plot_replays(df_original, df_replays, sns, teeplot_subdir, tp):
         teeplot_show=True,
     ) as _g:
         _g.set_titles("{col_name}", size=8)
+        _g.set_axis_labels("Stint", "Complexity")
         for _name, _ax in _g.axes_dict.items():
             _ax.plot(
                 df_original["Stint"],
