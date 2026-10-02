@@ -381,7 +381,7 @@ def delimit_replays(mo):
 
 @app.cell
 def plot_replays(df_original, df_replays, sns, teeplot_subdir, tp):
-    ymax = 120  # outliers above this are flagged with a red triangle
+    ymax = 50  # outliers above this are flagged with a red triangle
     with tp.teed(
         sns.relplot,
         data=df_replays,
