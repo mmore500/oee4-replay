@@ -2,3 +2,7 @@
 	path = paper
 	url = https://github.com/mmore500/oee4-replay.git
 	branch = paper
+[submodule "submodule/dishtiny-dishpylib"]
+	path = submodule/dishtiny-dishpylib
+	url = https://github.com/mmore500/dishtiny.git
+	shallow = true
