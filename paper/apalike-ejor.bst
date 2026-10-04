@@ -1,1 +1,0 @@
-tex/apalike-ejor.bst
