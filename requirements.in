@@ -1,10 +1,7 @@
 backstrip==0.2.4
-boto3
 black==22.10.0
-deprecation==2.1.0
 Deprecated==1.2.13
 interval_search==0.5.2
-iterpop==0.3.4
 IPython==7.31.1
 isort==5.12.0
 marimo==0.23.2
@@ -23,7 +20,6 @@ pytest==7.2.2
 pyarrow==16.1.0
 pytest-xdist==3.2.1
 requests==2.33.1
-s3fs[boto3]==2024.12.0
 ruff==0.15.1
 scipy==1.14.1
 seaborn==0.13.2
